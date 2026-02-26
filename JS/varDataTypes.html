@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Value Types in JS</title>
+</head>
+<body>
+    <script>
+        //JS Data Value Types
+        //Primitive,-immutable,single value data type in js
+        //string,number,boolen,undefined,null,bigInt and symbol
+
+        //script
+        var myName="Pratibha Rauniyar"
+        console.log(myName);
+        //number
+        var myMobile=645665834364464656;
+        console.log(myName+" mobile number is"+myMobile);
+        //boolean
+        var isMarried=false;
+        console.log(myName+"is married?"+isMarried)
+        //
+        var myEmail;
+        console.log(myEmail);
+        console.log(typeof(myEmail));
+        //bigint
+        var myNum=BigInt(656848567345678);
+        console.log(myNum);
+        console.log(typeof(myNum));
+        //
+        var var1=symbol("vikas");
+        var var2=symbol("vikas");
+        console.log(var1=var2);
+        //reference tye(object)--mutable in memory and keep the data in key value pair
+        //object,function,array
+        let myInfo={
+       name:"pratibha",
+       age:19,
+       isMarried:false,
+       address:"delhi-21",
+       branch:"CSE",
+       section:23
+        };
+        console.log(myInfo);
+        console.log(myInfo.name);
+        //object length
+        var keys=object.keys(myInfo);
+        console.log(keys.length);
+        //function-block of code to perform particular task
+
+    </script>
+</body>
+</html>
