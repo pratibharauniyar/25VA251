@@ -49,7 +49,28 @@
         var keys=object.keys(myInfo);
         console.log(keys.length);
         //function-block of code to perform particular task
+        function cal(){
+            var num1=45;
+            var num2=40;
+            var add=num1+num2;
+            console.log("Addition of two numbers is "+add);
+        }
+        cal();
 
+        //array-collection of any data types
+        let studentList=["stu1","stu2","stu3","stu4"];
+        console.log(studentList[0]);
+        //for different data types
+        let stu1=["vikas",23,false,"GZB","CSE",null,18];
+        console.log(stu1);
+        console.log(stu1.length);
+        //to iterate aaray number
+        for(let i=0;i<stu1.length;i++){
+            console.log(stu1[i]);
+        }
+for(let x in stu1){
+    console.log("update")
+}
     </script>
 </body>
 </html>
