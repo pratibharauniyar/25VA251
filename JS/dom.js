@@ -5,6 +5,15 @@ function result(){
  let inputData=document.getElementById("inputText").Value;
 let headingText=document.getElementById('text').textcontent=inputData;
 
+//valid age for age casting
+if(inputData>=18){
+    alert("Valid Data");
+
+}
+else{
+    alert("not valid");
+}
+
     let changecolor=document.getElementById('text');
     changecolor.style.color="red";
 
